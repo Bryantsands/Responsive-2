@@ -1,0 +1,235 @@
+body{
+
+	background-image: url(http://lorempixel.com/output/nightlife-q-g-640-480-8.jpg);
+	width:960px; 
+}
+
+
+
+a{
+	color: #cccccc;
+}
+
+ul {
+	list-style-type:none;
+	margin: 30px auto;
+}
+li {
+	float: left;
+	margin-left: 20px;
+}
+
+
+header {
+	width: 960px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	background-width: 960px;
+	height:51px;
+	clear:both;
+	margin-top: -30px;
+}
+h2 {
+	color: #4aaaa5;
+	padding: 10px;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 10px;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	border-style: solid;
+	font-style: 'Georgia', Times, Times New Roman, serif;
+	width: 115px;
+	float:left;
+	padding-left: 0px;
+	padding-top: 20px;
+	margin-left: 65px;
+	height: 33px;
+	color: #ffffff;
+	text-align: center;
+}
+
+h3{
+	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+
+}
+#main-bio {
+	width: 495px;
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	padding: 3px;
+	margin: 32px;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000000;
+	float: left;
+
+}
+
+#container {
+	width: 100%;
+}
+
+#aside{
+	width: 270px;
+	height: 178px;
+	float: left;
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	padding: 10px;
+	margin-top: 32px;
+
+
+}
+
+#portfolio{
+	width:425px;
+	background-color: #ffffff;
+	border:2px solid #dddddd;
+	padding: 10px;
+	margin: 32px;
+	margin-left: 50px;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #ebebeb;
+	float: left;
+	height: 475px;
+
+}
+
+footer{
+	width: 100%;
+	height: 62px;
+	background-color: #666666;
+	font-style: Arial;
+	clear: both;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: solid #ffffff; 
+	border-top: 14px solid #4aaaa5;
+}
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+#main-bio, #aside, #portfolio, 
+{
+	text-align: center;
+}
+
+@media (min-width: 769px) and (max-width: 980px) 
+{
+	header {
+		width: 100%;
+		}
+
+	#main-bio {
+		width: 495px;
+		background-color: #ffffff;
+		border:2px solid #dddddd;
+		padding: 3px;
+		margin: 32px;
+		font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 18px;
+		color: #000000;
+		float: left;
+		margin-left: 63px;
+		margin-bottom: 338px;
+		}
+
+	#aside{
+		width: 200px;
+		padding: 0px;
+		}
+	.container {
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+		clear: both;
+	}
+	
+}
+
+
+
+@media (min-width: 641px) and (max-width: 768px)
+{
+	#main-bio {
+		width: 598px;
+		margin-left: -21px;
+	
+	}
+
+	#aside{
+		width: 25%;
+	    height: 125px;
+	    margin-left: 179px;
+	    margin-top: 75px;
+	    margin-bottom: 15px;
+	}
+
+
+	#portfolio {
+		width: 57%;
+		margin-left: 102px;
+	}
+	header {
+		width: 100%;
+		background-color: #ffffff;
+		border-bottom: 2px solid #cccccc;
+		background-width: 960px;
+		height:51px;
+		position: static;
+	}
+
+	.container {
+	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
+	clear: both;
+	}
+	
+	footer{
+	width: 100%;
+	text-align: center;
+	}
+}
+
+
+@media (min-width: 10px) and (max-width: 640px) 
+{
+	#main-bio {
+		width: 458px;
+		margin: 0;
+		margin-top: 15px;
+		margin-right: 30px;
+	}
+	.container {
+		width: 100%;
+		max-width: 768px;
+		margin: 0 auto;
+		clear: both;
+	}
+	#aside{
+		width: 458px;
+		height: 178px;
+		float: left;
+		background-color: #ffffff;
+		border:2px solid #dddddd;
+		padding: 10px;
+		margin-top: 32px;
+	}
+	#portfolio {
+		width: 500px;
+	}
+	
+	
+	
+}
